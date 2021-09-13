@@ -47,7 +47,7 @@ txhousing_sampled_tbl %>%
 
 top_5_cities <- txhousing_sampled_tbl %>%
     count(city, sort = TRUE) %>%
-    slice(1:5) %>%
+    # slice(1:5) %>%
     pull(city)
 
 txhousing_sampled_tbl %>%

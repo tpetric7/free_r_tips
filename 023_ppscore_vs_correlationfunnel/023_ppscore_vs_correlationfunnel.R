@@ -7,7 +7,8 @@
 
 # LIBRARIES ----
 
-library(ppsr) # devtools::install_github('https://github.com/paulvanderlaken/ppsr')
+# devtools::install_github('https://github.com/paulvanderlaken/ppsr')
+library(ppsr)
 library(correlationfunnel)
 library(tidyverse)
 

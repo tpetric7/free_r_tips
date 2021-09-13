@@ -40,12 +40,17 @@ model_fit_glm <- logistic_reg() %>%
 
 model_fit_glm
 
+model_fit_glm %>% tidy()
 
 # 5.0 PREDICTION ----
 
-prediction_class_test <- predict(model_fit_glm, new_data = testing(splits), type = "class")
+prediction_class_test <- predict(model_fit_glm,
+                                 new_data = testing(splits),
+                                 type = "class")
 
-prediction_prob_test  <- predict(model_fit_glm, new_data = testing(splits), type = "prob")
+prediction_prob_test  <- predict(model_fit_glm,
+                                 new_data = testing(splits),
+                                 type = "prob")
 
 results_tbl <- bind_cols(
     prediction_class_test,
