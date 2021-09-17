@@ -35,7 +35,7 @@ mpg %>%
     group_split() %>%
 
     map(.f = function(df) {
-        lm(hwy ~ cty, data = df)
+        summary(lm(hwy ~ cty, data = df)) %>% tidy()
     })
 
 # 2.0 POWER OF BROOM ----
@@ -47,11 +47,14 @@ hwy_vs_city_tbl <- mpg %>%
     group_by(manufacturer) %>%
     group_split() %>%
 
+    # map_dfr (binds the dataframes into one, stacks them)
     map_dfr(.f = function(df) {
         lm(hwy ~ cty, data = df) %>%
             glance() %>%
             add_column(manufacturer = unique(df$manufacturer), .before = 1)
     })
+
+hwy_vs_city_tbl
 
 # 3.0 SUPER AWESOME TABLE WITH GT PACKAGE ----
 

@@ -97,11 +97,8 @@ usa_voting_tbl %>%
 
 
 
+# * Ortho Projection ----
 
-
-
-
-
-
-
+world_base +
+    coord_map("ortho", orientation = c(46, 15, 0))
 
