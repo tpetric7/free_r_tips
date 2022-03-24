@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 004: Writing Multiple CSV Files with Map ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # 1.0 LIBRARIES ----
 
@@ -67,3 +67,10 @@ car_data_tbl %>%
             write_csv(data, path = unique(data$file_path))
         }
     )
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+

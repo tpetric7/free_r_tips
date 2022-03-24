@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 034 | mmtable2: ggplot2 syntax for tables ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -10,6 +10,8 @@
 library(mmtable2)
 library(gt)
 library(tidyverse)
+
+mpg
 
 
 # 1.0 Data Transformation -----
@@ -31,7 +33,7 @@ data_wrangled
 main_table <- data_wrangled %>%
     mutate(fuel_economy = round(fuel_economy, 1)) %>%
 
-    mmtable(table_data = fuel_economy, table_name = "Fuel Economy") +
+    mmtable(cells = fuel_economy, table_name = "Fuel Economy") +
 
     # Specify Headers
     header_top(manufacturer) +
@@ -57,4 +59,10 @@ main_table %>%
         title = "Fuel Economy by Car Manufacturer",
         subtitle = "Audi, VW, and Honda are leaders in Fuel Economy"
     )
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
 

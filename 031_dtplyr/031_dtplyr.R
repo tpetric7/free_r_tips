@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 031 | dtplyr: Data Table Backend ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -48,7 +48,9 @@ mpg_summary_tbl %>%
 
 
 # LEARNING MORE ----
-# - Learning Lab 13: Big Data Wrangling 4.6M Rows of Financial Data with data.table
-#    https://university.business-science.io/p/learning-labs-pro
-# - Dplyr: Weeks 3 & 4 | DS4B 101-R Course (R for Business Analysis)
-#    https://university.business-science.io/p/ds4b-101-r-business-analysis-r
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
+

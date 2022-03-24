@@ -1,11 +1,19 @@
 # R TIPS ----
 # TIP 027 | Gentle Introduction to Shiny ---
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # Why Shiny?
 # - Example of Nostradamus (My Forecasting App built with modeltime)
 #   https://business-science.shinyapps.io/nostradamus/
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
+
 
 # LIBRARIES ----
 

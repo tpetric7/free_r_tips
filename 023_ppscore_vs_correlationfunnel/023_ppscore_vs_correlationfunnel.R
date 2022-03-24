@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 023 | PPSCORE VS CORRELATION FUNNEL! ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # Battle of the EDA Packages
 
@@ -87,7 +87,10 @@ wflw_fit_xgb <- workflow() %>%
 
 wflw_fit_xgb$fit$fit$fit %>% vip()
 
-# LEARNING MORE----
-# - DS4B 201-R Course (Advanced ML & Business Consulting)
-#   - H2O Automatic Machine Learning (AutoML) &
-#   - Explainable ML (Local Feature Importance)
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
+

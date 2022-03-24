@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 022 | Statistical Plotting with ggstatsplot! ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # ggstatsplot: designed for making publication-ready statistical plots
 
@@ -64,9 +64,15 @@ txhousing_sampled_tbl %>%
         title = "Comparison of Median Home Prices, Top 5 Texas Cities"
     )
 
-# MORE RESOURCES ----
+
+
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
+# ADDITIONAL RESOURCES
 # - ggstatsplot website: https://indrajeetpatil.github.io/ggstatsplot/index.html
-# - Learning Data Science for Business: https://www.business-science.io/
-
-
 

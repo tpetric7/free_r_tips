@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 005: Automate Excel Workbooks with R ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # 1.0 LIBRARIES ----
 
@@ -50,3 +50,11 @@ saveWorkbook(wb, "005_excel_workbook/stock_analysis.xlsx", overwrite = TRUE)
 
 # * Open the Workbook ----
 openXL("005_excel_workbook/stock_analysis.xlsx")
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
+

@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 033 | corrmorrant: ggplot2 extension for correlation matricies ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -49,4 +49,10 @@ ggcorrm(
     scale_color_viridis_d() +
     scale_fill_viridis_d() +
     labs(title = "Correlation Plot")
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
 

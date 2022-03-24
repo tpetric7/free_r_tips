@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 009 | Must-Know Tidyverse Features: Summarise + Across ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 library(tidyverse)
@@ -70,3 +70,11 @@ mpg %>%
         .groups = "drop"
     ) %>%
     rename_with(.fn = str_to_upper)
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
+

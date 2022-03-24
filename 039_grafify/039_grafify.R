@@ -2,7 +2,7 @@
 # TIP 039 | grafify: Easy Graphs and ANOVAs ----
 #
 # 👉 For Weekly R-Tips, Sign Up Here:
-#    https://mailchi.mp/business-science/r-tips-newsletter
+#    https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -42,11 +42,11 @@ mpg %>%
     plot_befafter_colors(year, mean_hwy, model)
 
 
-# LEARNING MORE -----
+# LEARNING MORE ----
 
-# R FOR BUSINESS ANALYSIS COURSE (DS4B 101-R)
-# - Learn ggplot2 in Week 4 (Visualization)
-#   https://university.business-science.io/p/ds4b-101-r-business-analysis-r
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
 
 # 5-COURSE R-TRACK
 # - Beginner to Expert in 6-months

@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 035 | patchwork: combine ggplots into 1 ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -112,5 +112,11 @@ gg_tx_map + (gg_tx_timeseries / gg_tx_ridge) +
     theme(plot.tag.position = c(0, 1),
           plot.tag = element_text(size = 8, hjust = 0, vjust = 0))
 
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
 
 

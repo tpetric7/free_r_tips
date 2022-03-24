@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 002: Scraping MS Word (docx) Files with R ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # 1.0 LIBRARIES ----
 library(officer)
@@ -57,8 +57,8 @@ lecture_analysis_tbl %>%
     expand_limits(y = 0) +
     theme_minimal()
 
-# LEARN MORE:
-# - Recommendation: DS4B 101-R Course
-# - I cover data manipulation & data visualization in-depth in my "R for Business Analysis Course" (DS4B 101-R)
-# - LEARN MORE: https://university.business-science.io/p/ds4b-101-r-business-analysis-r
+# LEARNING MORE ----
 
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass

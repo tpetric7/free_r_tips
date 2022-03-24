@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 021 | Create a Data Frame in R (4 ways)! ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -92,5 +92,11 @@ interest_rate_tbl %>% writexl::write_xlsx("021_make_dataframes_in_r/interest_rat
 # QUOTE ----
 # "THE BEST INVESTMENT IS AN INVESTMENT IN YOURSELF."
 # ~ Warren Buffet
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
 
 

@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 026 | Assess Data Quality with skimr ---
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # skimr: designed for data quality
 
@@ -34,10 +34,13 @@ economics %>% skim()
 economics_long %>% group_by(variable) %>% skim()
 
 
-# MORE R-TIPS ----
+# LEARNING MORE ----
 
-# R-Tip 025: Super Fast EDA with DataExplorer
-# R-Tip 023: Correlation Funnel vs PPScore
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
+
 
 
 

@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 003: Automate PowerPoint Slide Decks with R ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # 1.0 LIBRARIES ----
 library(officer)
@@ -60,3 +60,10 @@ doc <- ph_with(doc, value = stock_table, location = ph_location_left())
 doc <- ph_with(doc, value = stock_plot, location = ph_location_right())
 
 print(doc, target = "003_powerpoint_slidedeck/stock_report.pptx")
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+

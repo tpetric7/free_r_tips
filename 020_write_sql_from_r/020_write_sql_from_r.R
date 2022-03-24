@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 020 | Write SQL from R! 🤯 ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # SPECIAL SHOUT-OUT:
 # - Emily Riederer's SQL dbplyr tutorial: https://emilyriederer.netlify.app/post/sql-generation/
@@ -52,5 +52,11 @@ manufacturer_aggregations_tblcon %>%
     .[2:length(.)] %>%
     str_replace_all("`", "") %>%
     str_c(collapse = " ")
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
 
 

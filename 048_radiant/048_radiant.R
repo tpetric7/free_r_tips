@@ -2,7 +2,7 @@
 # TIP 048| radiant: Business Intelligence with R  ----
 #
 # 👉 For Weekly R-Tips, Sign Up Here:
-#    https://mailchi.mp/business-science/r-tips-newsletter
+#    https://learn.business-science.io/r-tips-newsletter
 
 # Radiant Documentation: https://radiant-rstats.github.io/docs/
 
@@ -25,5 +25,5 @@ radiant()
 
 # FREE MASTERCLASS
 # - 10 SECRETS TO BECOMING A DATA SCIENTIST
-#   https://mailchi.mp/business-science/rtrack-master-class-signup-3
+#   https://learn.business-science.io/free-rtrack-masterclass
 

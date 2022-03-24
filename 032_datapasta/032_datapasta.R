@@ -1,7 +1,7 @@
 # R TIPS ----
 # TIP 032 | datapasta: Copy & Paste HTML or Excel Tables ----
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -88,8 +88,10 @@ largest_companies_dt %>%
     labs(title = "Revenue (Millions) for Largest Companies") +
     theme(legend.position = 'none')
 
-# LEARNING RECOMMENDATIONS ----
-# 1. Learning tidyverse foundations - R for Business Analysis DS4B 101-R
-# 2. Learning Time Series - High-Performance Time Series DS4B 203-R
-# 3. 5-Course R-Track (go from beginner to expert)
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
+
 

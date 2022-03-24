@@ -3,7 +3,7 @@
 # - Detect Vehicle Age: 1999 vs 2008
 # - Interactively Visualizing PCA
 #
-# 👉 For Weekly R-Tips, Sign Up Here: https://mailchi.mp/business-science/r-tips-newsletter
+# 👉 For Weekly R-Tips, Sign Up Here: https://learn.business-science.io/r-tips-newsletter
 
 # LIBRARIES ----
 
@@ -97,5 +97,11 @@ data_prepared_tbl %>%
     theme_minimal(base_size = 18) +
     scale_color_viridis_d(end = 0.4) +
     labs(title = "Older Vehicles have Lower Fuel Economy")
+
+# LEARNING MORE ----
+
+# FREE MASTERCLASS
+# - 10 SECRETS TO BECOMING A DATA SCIENTIST
+#   https://learn.business-science.io/free-rtrack-masterclass
 
 
