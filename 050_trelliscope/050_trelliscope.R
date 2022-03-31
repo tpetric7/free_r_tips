@@ -27,6 +27,17 @@ mpg %>%
     ggplot(aes(displ, hwy)) +
     geom_point(size = 4) +
     geom_smooth(se = FALSE, span = 1) +
+    facet_wrap(
+        ~ manufacturer,
+        ncol      = 4,
+        nrow      = 25
+    )
+
+# Now with trelliscope
+mpg %>%
+    ggplot(aes(displ, hwy)) +
+    geom_point(size = 4) +
+    geom_smooth(se = FALSE, span = 1) +
     facet_trelliscope(
         ~ manufacturer,
         ncol      = 4,
