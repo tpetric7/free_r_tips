@@ -18,8 +18,12 @@ mpg
 mpg_pivot_table_1 <- mpg %>%
     group_by(manufacturer) %>%
     count(class, name = "n") %>%
-    pivot_wider(names_from = class, values_from = n, values_fill = 0) %>%
-    ungroup()
+    ungroup() %>%
+    pivot_wider(
+        names_from  = class,
+        values_from = n,
+        values_fill = 0
+    )
 
 # 2.0 Pivot Table ----
 
