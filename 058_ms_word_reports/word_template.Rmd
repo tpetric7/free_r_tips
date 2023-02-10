@@ -1,0 +1,79 @@
+---
+title: "R-TIP 58: Word Automation with `officedown`"
+author: "Business Science"
+date: "2023-02-07"
+output: officedown::rdocx_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    echo = FALSE,
+    # Table Captioning
+    tab.cap.style = "Table Caption",
+    tab.cap.pre = "Table ",
+    tab.cap.sep = ": ",
+    # Figure Captioning
+    fig.cap.style = "Image Caption",
+    fig.cap.pre = "Figure ",
+    fig.cap.sep = ": "
+)
+
+# LIBRARIES
+library(officedown)
+library(officer)
+library(tidyverse)
+library(timetk)
+```
+
+## BUSINESS SCIENCE R TIPS 
+
+👉 For Weekly R-Tips, Sign Up Here: <https://learn.business-science.io/r-tips-newsletter>
+
+## Executive Summary
+
+This document tracks the economics data of US population and unemployment.
+
+\newpage
+
+## Table of Contents
+
+```{r}
+block_toc()
+```
+
+## Table of Figures
+
+```{r}
+block_toc(style = "Image Caption")
+```
+
+\newpage
+
+## Figures
+
+This is a linked reference to a figure \@ref(fig:tsplot), its number is computed by Word and it's linked to the corresponding graphic when clicking on it.
+
+```{r fig.cap="economics plot", fig.id = "tsplot", fig.cap.style = "Image Caption"}
+economics %>%
+    plot_time_series(
+        .date_var    = date, 
+        .value       = unemploy / pop,
+        .interactive = FALSE
+    )
+```
+
+## Tables
+
+This is a linked reference to a table \@ref(tab:econtab), its number is computed by Word and it's linked to the corresponding table when clicking on it.
+
+```{r tab.cap="economics table", tab.id = "econtab", tab.cap.style = "Table Caption"}
+head(economics)
+```
+
+## LEARNING MORE 
+
+Want the ultimate data science system that will accelerate your career and get you earning 6-figures or more?
+
+## FREE MASTERCLASS
+
+10 SECRETS TO BECOMING A DATA SCIENTIST: <https://learn.business-science.io/free-rtrack-masterclass>
